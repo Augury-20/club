@@ -1,4 +1,4 @@
-.display{
+.display-container{
 	position:relative;
 }
 .content{
@@ -11,4 +11,18 @@
 .image{
 	max-width:100%;
 	height:auto;
+}
+.displa-bottomlef{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.padding-large{
+	padding:12px 24px !important;
+}
+.opacity{
+	opacity:0.60;
+}
+.xxlare{
+	font-size:36px !important
 }
