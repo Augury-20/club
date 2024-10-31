@@ -11,15 +11,32 @@
 <link rel="stylesheet" href="css/tea.css">
 </head>
 <style>
-#header {height:150px;background-color:#f9c81e;padding:1em}
-#title {position:absolute; left:100px; top:50px;}
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    }
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+ .text-overlay {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            text-align: left;
+        }
 </style>
 <body>
-<header class="display-container contene wide"style="max-with:1600px;min-with:500px" id="home">
-	<img class="image" src="封面.png" alt="茶"width="1550"height="765">
-	<div id="header>
-		<h1 id="title">台東大學茶道研習社</h1>
-	</div>
-</header>
+<div class="image-container">
+    <!-- 替換成你的圖片網址 -->
+    <img src="封面.png" alt="範例圖片">
+    <div class="text-overlay">台東大學茶道研習社</div>
+</div>
 </body>
 </html> 
