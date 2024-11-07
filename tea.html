@@ -11,62 +11,24 @@
 <link rel="stylesheet" href="css/tea.css">
 </head>
 <style>
-@media screen and (max-width: 768px) {
-    .column{width:100;}
-body,html{
-	margin:0;
-	padding:0;
-	overflow-x:hidden;
-	}
-.image-container {
-    position: relative;
-    width:100vw;
-        }
-
-        /* 圖片 */
-.image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-    }
-
-        /* 文字樣式 */
-.text-overlay {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    color: white;
-    font-size: 110px;
-	font-weight: bold;
-	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    text-align: left;
-    }
- 
-        /* 左右區塊樣式 */
-.column {
-    width: 50%;
-    float:left;
-    height:500px;
-    teat-align:center;
-    padding: 20px;
-    box-sizing: border-box;
-    }
-
-    </style>
-</head>
+.header {background-color: #f1f1f1; padding: 20px; text-align: center;}
+.nav {background-color: black; height: 50px; position: sticky; top:0px; z-index:999;}
+.nav a {float: left; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
+* {box-sizing: border-box;}
+.column {float: left; width: 50%; padding: 15px; height:500px;}
+@media screen and (max-width:600px) {
+.column {width: 100%;}
+}
+.footer {clear: both; background-color: #f1f1f1; text-align: center;}
+body{margin: 0px;}
+</style>
 <body>
-
-<div class="image-container">
-    <img src="封面.png" alt="範例圖片">
-    <div class="text-overlay">台東大學茶道研習社</div>
+<div class="header"><h1>Header</h1></div>
+<div class="nav">
+<a href="home.html">Home</a><a href="photo.html">Photo</a><a href="about.html">About</a>
 </div>
-    <div class="column">
-        /* 左邊區域內容 */
-    </div>
-    <div class="column">
-        /* 右邊區域內容 */
-        <p>社團宗旨</p>
-    </div>
-</div>
+<div class="column"><h2>Column 1 in Photo</h2></div>
+<div class="column"><h2>Column 2 in Photo</h2></div>
+<div class="footer"><h3>Footer</h3></div>
 </body>
 </html> 
