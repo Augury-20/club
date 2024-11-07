@@ -11,18 +11,8 @@
 <link rel="stylesheet" href="css/tea.css">
 </head>
 <style>
-@media (max-width: 768px) {
-    .text-overlay {
-    font-size: 18px;
-    top: 10px;
-    left: 10px;
-    }
-    .content-section {
-    flex-direction: column;
-    }
-    .section {
-    width: 100%;
-    }
+@media screen and (max-width: 768px) {
+    .column{width:100;}
 body,html{
 	margin:0;
 	padding:0;
@@ -52,14 +42,12 @@ body,html{
     text-align: left;
     }
  
-.content-section {
-    display: flex;
-    width: 100vw;
-    }
-
         /* 左右區塊樣式 */
-.section {
+.column {
     width: 50%;
+    float:left;
+    height:500px;
+    teat-align:center;
     padding: 20px;
     box-sizing: border-box;
     }
@@ -72,11 +60,10 @@ body,html{
     <img src="封面.png" alt="範例圖片">
     <div class="text-overlay">台東大學茶道研習社</div>
 </div>
-<div class="content-section">
-    <div class="section">
+    <div class="column">
         /* 左邊區域內容 */
     </div>
-    <div class="section">
+    <div class="column">
         /* 右邊區域內容 */
         <p>社團宗旨</p>
     </div>
