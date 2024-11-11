@@ -11,12 +11,11 @@
 <link rel="stylesheet" href="css/tea.css">
 </head>
 <style>
-.header {height:150px;background-image:url("封面.png");background-repeat:no-repeat;background-size:cover;padding:1em;text-align:center;}
+.header{height:150px;background-image:url("封面.jpg");background-repeat:no-repeat;background-size:cover;padding:1em;text-align:center;}
 
-.nav {background-color: black; height: 50px; position: sticky; top:0px; z-index:999;}
+.nav{background-color: black; height: 50px; position: sticky; top:0px; z-index:999;}
 
 .nav a {float: left; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
-
 * {box-sizing: border-box;}
 .column {float: left; width: 50%; padding: 15px; height:500px;}
 @media screen and (max-width:600px) {
@@ -28,6 +27,26 @@ a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
+.twtext{
+	font-family:Zapf Humanist,'Noto Serif TC',Serif;
+	text-alian:center;
+	font-weight:bolder;
+	letter-spacin:1px;
+	font-size:1.6em;
+	paddin:5px;
+	color:#1a1a1a;
+	}
+.pdcontenttext{
+	font-family:Zapf Humanist,'Noto Serif TC',Serif;
+	text-alian:center;
+	letter-spacing:1em;
+	font-size:1em;
+	padding:15px;
+	color:#505050;
+	max-width:100%
+	margin:0 auto;
+	}
+	
 </style>
 <body>
 <div class="header"><h1>台東大學茶道研習社</h1></div>
@@ -35,12 +54,16 @@ a:active {text-decoration:underline;}
 <a href="社團宗旨.html">社團宗旨</a><a href="社課資訊.html">社課資訊</a><a href="六大茶類.html">六大茶類</a>
 </div>
 <div class="column">
-    <img src="封面.png" alt="範例圖片">
+    <img src="宗旨jpg" alt="範例圖片">
     </div>
 <div class="column">
-    <h2>社團宗旨</h2>
-    <h2>
+    <h2 class="twtext">社團宗旨</h2>
+	<br>
+    <div class="pdcontenttext">本社團宗旨乃結合愛好茶道之學子，藉由茶藝之研習及推廣，培養中華茶道之仁德精神，以實踐真善美為人生目標
+	</div>
+
 </div>
+
 <div class="footer"><h3>聯絡資訊</h3></div>
 </body>
 </html> 
