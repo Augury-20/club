@@ -31,7 +31,7 @@ a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 .all{
-	width:1200px;
+	width:100%;
 	heigght:1200px;
 	background-color:#ccc;
 	display:flex;
@@ -67,7 +67,7 @@ a:active {text-decoration:underline;}
 	text-alian:center;
 	font-family:Zapf Humanist,'Noto Serif TC',Serif;
 	font-size:1.3em;
-	color:#505050:
+	color:#505050;
 	max-width:50%;
 	}
 /* 副標*/ 
@@ -81,6 +81,28 @@ a:active {text-decoration:underline;}
 	color:#1a1a1a;
 	font-weght:bold;
 	}
+	
+/* 表格*/
+.grid{
+	width:100%;
+	heigght:1200px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family:Zapf Humanist,'Noto Serif TC',Serif;
+	letter-spacing:1px;
+	font-size:1.6em;
+	padding:15px;
+	color:#505050;
+	max-width:70%;
+	margin:0 auto;
+	
+	}
+th, td {
+	width: 150px; 
+	text-align: left; 
+	border-bottom: 1px solid #455243;}
+	
 </style>
 <body>
 <div class="header"><h1>台東大學茶道研習社</h1></div>
@@ -89,10 +111,14 @@ a:active {text-decoration:underline;}
 </div>
 <div class="all">
 	<h2 class="twtext">社課資訊</h2></div>
-<h3 class="contact">校內社課</h3>
-<div class="pdcontenttext">本社團宗旨乃結合愛好茶道之學子<br>
-藉由茶藝之研習及推廣，培養中華茶道之仁德精神<br>
-以實踐真善美為人生目標
+<h3 class="twotwtext">校內社課</h3>
+<div class="pdcontenttext">
+<table><tr><th>日期</th><th>活動名稱</th></tr>
+<tr><td>9月19日(四)</td><td>迎新茶會-白露垂珠滴秋月</td></tr>
+<tr><td>10月08日(二)</td><td>茶食堂DIY-水果鬆餅</td></tr>
+<tr><td>10月22日(二)</td><td>臺灣茶旅行-紅玉紅茶</td></tr>
+<tr><td>11月26日(二)</td><td>茶食堂DIY-蘋果派</td></tr>
+<tr><td>12月17日(二)</td><td>封箱茶會甜蜜聖誕-巧克力火鍋</td></tr></table>
 </div>
 
 
