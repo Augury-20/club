@@ -84,25 +84,8 @@ a:active {text-decoration:underline;}
 	color:#1a1a1a;
 	font-weght:bold;
 	}
-	
-/* 表格*/
-.grid{
-	width:100%;
-	heigght:1200px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	font-family:Zapf Humanist,'Noto Serif TC',Serif;
-	letter-spacing:1px;
-	font-size:1.6em;
-	padding:15px;
-	margin:0 auto;
-	
-	}
-th, td { 
-	text-align: left; 
-	border-bottom: 1px solid #455243;}
-	
+
+
 </style>
 <body>
 <div class="header"><h1>台東大學茶道研習社</h1></div>
@@ -111,14 +94,16 @@ th, td {
 </div>
 <div class="all">
 	<h2 class="twtext">照片回顧</h2></div>
-<div class="carousel">
-    <div class="carousel-images">
-      <img src="1.jpg" alt="Image 1">
-      <img src="2.jpg" alt="Image 2">
-      <img src="3.jpg" alt="Image 3">
-    </div>
-    <button class="prev" onclick="prevSlide()">&#10094;</button>
-    <button class="next" onclick="nextSlide()">&#10095;</button>
-  </div>
+<div class="picture">
+	<div class="carousel">
+	    <div class="carousel-images">
+	      <img src="1.jpg" alt="Image 1">
+	      <img src="2.jpg" alt="Image 2">
+	      <img src="3.jpg" alt="Image 3">
+	    </div>
+	    <button class="prev" onclick="prevSlide()">&#10094;</button>
+	    <button class="next" onclick="nextSlide()">&#10095;</button>
+	</div>
+</div> 
 </body>
 </html> 
