@@ -94,16 +94,14 @@ a:active {text-decoration:underline;}
 </div>
 <div class="all">
 	<h2 class="twtext">照片回顧</h2></div>
-<div class="picture">
-	<div class="carousel">
-	    <div class="carousel-images">
-	      <img src="1.jpg" alt="Image 1">
-	      <img src="2.jpg" alt="Image 2">
-	      <img src="3.jpg" alt="Image 3">
-	    </div>
-	    <button class="prev" onclick="prevSlide()">&#10094;</button>
-	    <button class="next" onclick="nextSlide()">&#10095;</button>
-	</div>
-</div> 
+<div class="carousel">
+    <div class="carousel-images">
+        <img src="1.jpg" alt="Image 1">
+        <img src="2.jpg" alt="Image 2">
+        <img src="3.jpg" alt="Image 3">
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
 </body>
 </html> 
