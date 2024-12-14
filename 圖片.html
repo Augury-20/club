@@ -9,6 +9,8 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <title>台東大學茶道研習社</title>
 <link rel="stylesheet" href="css/tea.css">
+<link rel="stylesheet" href="輪播.css">
+<script src="輪播.js"></script>
 </head>
 <style>
 .header{height:150px;background-image:url("封面.png");background-repeat:no-repeat;background-size:cover;padding:1em;text-align:center;}
@@ -108,35 +110,15 @@ th, td {
 <a href="tea.html">社團宗旨</a><a href="社課資訊.html">社課資訊</a><a href="六大茶類.html">六大茶類</a>
 </div>
 <div class="all">
-	<h2 class="twtext">社課資訊</h2></div>
-<div class="twotwtext">校內社課</div>
-<div class="pdcontenttext">
-<table class="grid"><tr><th>日期</th><th>活動名稱</th></tr>
-<tr><td style="width:200px">9月19日(四)</td><td style="width:500px">迎新茶會-白露垂珠滴秋月</td></tr>
-<tr><td style="width:200px">10月08日(二)</td><td style="width:500px">茶食堂DIY-水果鬆餅</td></tr>
-<tr><td style="width:200px">10月22日(二)</td><td style="width:500px">臺灣茶旅行-紅玉紅茶</td></tr>
-<tr><td style="width:200px">11月26日(二)</td><td style="width:500px">茶食堂DIY-蘋果派</td></tr>
-<tr><td style="width:200px">12月17日(二)</td><td style="width:500px">封箱茶會甜蜜聖誕-巧克力火鍋</td></tr></table>
-</div>
-
-<div class="twotwtext">校外社課</div>
-<div class="pdcontenttext">
-<table class="grid"><tr><th>日期</th><th>活動名稱</th></tr>
-<tr><td style="width:200px">10月03日(四)</td><td style="width:500px">開幕茶會-秋月烹茶邀客至</td></tr>
-<tr><td style="width:200px">11月16日(六)</td><td style="width:500px">女王的請帖-英式下午茶體驗</td></tr>
-<tr><td style="width:200px">11月21日(四)</td><td style="width:500px">征服世界茶韻香-世界紅茶大賞</td></tr>
-<tr><td style="width:200px">12月05日(四)</td><td style="width:500px">泡一杯好喝的紅茶</td></tr>
-<tr><td style="width:200px">12月26日(四)</td><td style="width:500px">封箱茶會-耶誕歡樂頌</td></tr></table>
-</div>
-
-
-
-<div class="footer"><h3>聯絡資訊</h3></div>
-<div class="contact">
-	<a href="https://sites.google.com/view/nttu-rform?fbclid=PAZXh0bgNhZW0BMQABpgv4GTDzF5U8Cz49ZHJ34AoJUX6MbIpKc_HgSLMO1jl1A7uvkiH9AwjPaA_aem_CY8Tn5vuNg4AGppuxs0JpA"target=_blank>報名社課</a>：報名校內外社課請點這裡<br>
-	<a href="https://www.instagram.com/nttu.teaclub?igsh=dW02d3RhZHpoZjY0"target=_blank>IG資訊</a>：想知道更多資訊請點這裡<br>
-	<a href="https://www.facebook.com/taitungteaclub"target=_blank>FB資訊</a>：想知道更多資訊請點這裡<br>
-	<a href="http://ett333023.com.tw/page3_14.htm"target=_blank>公車時刻表</a>：歡迎查閱，不要錯過公車時間喔<br>
-</div>
+	<h2 class="twtext">照片回顧</h2></div>
+<div class="carousel">
+    <div class="carousel-images">
+      <img src="1.jpg" alt="Image 1">
+      <img src="2.jpg" alt="Image 2">
+      <img src="3.jpg" alt="Image 3">
+    </div>
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
 </body>
 </html> 
