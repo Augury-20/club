@@ -14,8 +14,8 @@
 
 .carousel-images img {
   width: 100%;
-  max-height: 500px;
-  object-fit: cover;
+  height: auto;  /* 高度根據寬度自動調整，保持比例 */
+  object-fit: contain;  /* 使圖片完整顯示，不被裁切 */
 }
 
 button {
