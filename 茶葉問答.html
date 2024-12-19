@@ -9,8 +9,7 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <title>台東大學茶道研習社</title>
 <link rel="stylesheet" href="tea.css">
-<link rel="stylesheet" href="圖片.css">
-
+<link rel="stylesheet" href="題目.css">
 </head>
 <style>
 </style>
@@ -19,17 +18,29 @@
 <div class="nav">
 <a href="tea.html">社團宗旨</a><a href="社課資訊.html">社課資訊</a><a href="六大茶類.html">六大茶類</a><a href="圖片.html">照片</a>
 </div>
-<div class="all">
-	<h2 class="twtext">照片回顧</h2></div>
-<div class="carousel">
-    <div class="carousel-images">
-        <img src="1.jpg" alt="Image 1">
-        <img src="2.jpg" alt="Image 2">
-        <img src="3.jpg" alt="Image 3">
-    </div>
-    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+<dis class="quiz-container">
+	<h2 class="twtext">茶葉小學堂</h2>
+	<div id="quiz" class="quiz">
+		<div class="question">
+			<p></p>
+			<div class="answer-buttons">
+    			<button onclick="checkAnswer(this,'wrong')"></button>
+    			<button onclick="checkAnswer(this,'correct')"></button>
+    		</div>
+    		<div class="correct-answer hidden">正確答案是:</div>
+    	</div>	
+    	<hr>
+    	<div class="question">
+			<p></p>
+			<div class="answer-buttons">
+    			<button onclick="checkAnswer(this,'wrong')"></button>
+    			<button onclick="checkAnswer(this,'wrong')"></button>
+    		</div>
+    		<div class="correct-answer hidden">正確答案是:</div>
+    	</div>	
+    	<hr>
+    </div>	
 </div>
-<script src="輪播.js"></script>
+<script src="題目.js"></script>
 </body>
 </html> 
